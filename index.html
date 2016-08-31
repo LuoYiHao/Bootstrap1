@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<style>
+	.carousel{
+		height:500px;
+		margin-bottom:70px;
+	}
+	.carousel .item{
+		height:500px;
+	}
+	.carousel .item img{
+		width:100%;
+	}
+	.row div p{
+		border:1px solid #ccc;
+		padding:5px;
+	}
+	body{
+		padding-bottom:50px;
+	}
+	</style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">某管理系统</a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">功能<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li class="dropdown-header">业务功能</li>
+                <li><a href="#">信息建立</a></li>
+                <li><a href="#">信息查询</a></li>
+                <li><a href="#">信息管理</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">系统功能</li>
+                <li><a href="#">设置</a></li>
+              </ul>
+            </li>
+            <li><a href="#">帮助</a></li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="用户名...">
+              <input type="text" class="form-control" placeholder="密码...">
+            </div>
+            <button type="submit" class="btn btn-default">登录</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://img.mukewang.com/5412ad400001e52014280484.jpg" alt="...">
+          <div class="carousel-caption">
+            11 英寸 MacBook Air 充电一次可运行长达 9 小时，而 13 英寸机型则可运行长达 12 小时。
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://img.mukewang.com/5412ad7c0001d2eb10880541.jpg" alt="...">
+          <div class="carousel-caption">
+            无论是什么任务，配备 Intel HD Graphics 5000 图形处理器的第四代 Intel Core 处理器都能应对自如。
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://img.mukewang.com/5412ae5c0001653b12800644.jpg" alt="...">
+          <div class="carousel-caption">
+            有了新一代 802.11ac 技术，MacBook Air 令 Wi-Fi 速度超越极限。
+          </div>
+        </div>
+      </div>
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-4">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+            <div class = "col-md-4">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+            <div class = "col-md-4">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-4">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+            <div class = "col-md-offset-4 col-md-4">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-offset-3 col-md-3">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+            <div class = "col-md-offset-3 col-md-3">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-offset-3 col-md-6">
+                <p>
+                    慕课网是一家从事互联网免费教学的网络教育公司。秉承"开拓、创新、公平、分享"的精神，将互联网特性全面的应用在教育领域，致力于为教育机构及求学者打造一站式互动在线教育品牌。
+                </p>
+            </div>
+            <div class = "col-md-3">
+            </div>
+        </div>
+    </div>
+	<div>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">第一项</a></li>
+        <li role="presentation"><a href="#profile"  id = "myTabs" aria-controls="profile" role="tab" data-toggle="tab">第二项</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">第三项</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">第四项</a></li>
+      </ul>
+    
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">慕课网课程涵盖前端开发、PHP、Html5、Android、iOS、Swift等IT前沿技术语言，包括基础课程、实用案例、高级分享三大类型，适合不同阶段的学习人群。以纯干货、短视频的形式为平台特点，为在校学生、职场白领提供了一个迅速提升技能、共同分享进步的学习平台。
+        </div>
+        <div role="tabpanel" class="tab-pane" id="messages">4月2日，国内首个IT技能学习类应用——慕课网3.1.0版本在应用宝首发。据了解，在此次上线的版本中，慕课网新增了课程历史记录、相关课程推荐等四大功能，为用户营造更加丰富的移动端IT学习体验。
+        </div>
+        <div role="tabpanel" class="tab-pane" id="settings">慕课网视频短视频课程以短视频为特色，多数视频每节课不超过10分钟，有利于用户利用碎片化时间学习，同时也更容易聚焦用户注意力，使学习效果最大化。
+        </div>
+      </div>
+    </div>
+    <script src=" http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+		$("#myTabs").tab("show");
+	</script>
+  </body>
+</html>
